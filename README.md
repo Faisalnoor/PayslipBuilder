@@ -9,7 +9,7 @@ Pre-requisites
 * IIS Express (8.0) - install via the "Web Platform"
 
 
-* SetUp And Start
+* Setup And Start instructions:
 - Install nodejs (https://nodejs.org/en/).
 - Goto project directory>payslips folder , open windows cli run `npm install` to download javascript dependencies.
 - Goto project directory, There is a Payslip.sln file in project directory. double click it to open in visual studio.
@@ -20,7 +20,7 @@ Pre-requisites
 	- Please look at the Employee.json file in the project directory for details of fields and formats.
 	- firstName, lastName, annualSalary, superRate, paymentPeriod are the required fields in the json file.
 
-*Assumptions
+* Assumptions:
 - Employee(.json) Input file will always be correct (in both its format and its data)
 	- For example, the payment period is always in calendar month range (i.e. 01 March - 31 March)
 	- All the fields i.e. firstName, lastName, annualSalary, superRate, paymentPeriod are mandatory.
