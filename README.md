@@ -7,6 +7,12 @@ Pre-requisites
 
 - IIS Express (8.0) - install via the "Web Platform"
 
+- Assumptions:
+	- Input file is in json format.
+		- Please look at the Employee.json file in the project directory for details of fields and formats.
+	- Input file will always have correct format and data.
+		- All the fields i.e. firstName, lastName, annualSalary, superRate, paymentPeriod are mandatory.
+		- The payment period is always in calendar month range e.g. 01 March - 31 March
 
 - Setup And Start instructions:
 	- Install nodejs (https://nodejs.org/en/).
@@ -15,11 +21,5 @@ Pre-requisites
 	- Right click on Solution folder in visual studio select Rebuild Solution or (Clean and then Build Solution).
 	- Right click on Payslip.Test project in visual studio select Run Unit Tests.
 	- Right click on Payslip project And Select Set as StartUp Project.
-	- Start the application and drop .json file on the box to generate the payslips.
-		- Please look at the Employee.json file in the project directory for details of fields and formats.
+	- Start the application, drag and drop the employee.json file on the box in UI to generate the payslips.
 		- firstName, lastName, annualSalary, superRate, paymentPeriod are the required fields in the json file.
-
-- Assumptions:
-	- Employee(.json) Input file will always be correct (in both its format and its data)
-		- For example, the payment period is always in calendar month range (i.e. 01 March - 31 March)
-		- All the fields i.e. firstName, lastName, annualSalary, superRate, paymentPeriod are mandatory.
