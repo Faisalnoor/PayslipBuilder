@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payslip", "Payslip\Payslip.csproj", "{17457CE6-9B68-4F17-8690-7BFB7D3FDCD2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{943F4035-BD03-46BD-BF97-E20F35C676F8} = {943F4035-BD03-46BD-BF97-E20F35C676F8}
+		{FB22E560-2B9F-4E79-985F-1B49910FD9C8} = {FB22E560-2B9F-4E79-985F-1B49910FD9C8}
+		{33D6307A-5066-4106-BE7A-2A85EA962988} = {33D6307A-5066-4106-BE7A-2A85EA962988}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{FB22E560-2B9F-4E79-985F-1B49910FD9C8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{33D6307A-5066-4106-BE7A-2A85EA962988} = {33D6307A-5066-4106-BE7A-2A85EA962988}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{943F4035-BD03-46BD-BF97-E20F35C676F8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FB22E560-2B9F-4E79-985F-1B49910FD9C8} = {FB22E560-2B9F-4E79-985F-1B49910FD9C8}
+		{33D6307A-5066-4106-BE7A-2A85EA962988} = {33D6307A-5066-4106-BE7A-2A85EA962988}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilities", "Utilities\Utilities.csproj", "{33D6307A-5066-4106-BE7A-2A85EA962988}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payslip.Test", "Payslip.Test\Payslip.Test.csproj", "{884E978C-B499-4458-B755-3F11254545D3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{943F4035-BD03-46BD-BF97-E20F35C676F8} = {943F4035-BD03-46BD-BF97-E20F35C676F8}
+		{FB22E560-2B9F-4E79-985F-1B49910FD9C8} = {FB22E560-2B9F-4E79-985F-1B49910FD9C8}
+		{33D6307A-5066-4106-BE7A-2A85EA962988} = {33D6307A-5066-4106-BE7A-2A85EA962988}
+		{17457CE6-9B68-4F17-8690-7BFB7D3FDCD2} = {17457CE6-9B68-4F17-8690-7BFB7D3FDCD2}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17457CE6-9B68-4F17-8690-7BFB7D3FDCD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17457CE6-9B68-4F17-8690-7BFB7D3FDCD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17457CE6-9B68-4F17-8690-7BFB7D3FDCD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17457CE6-9B68-4F17-8690-7BFB7D3FDCD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB22E560-2B9F-4E79-985F-1B49910FD9C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB22E560-2B9F-4E79-985F-1B49910FD9C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB22E560-2B9F-4E79-985F-1B49910FD9C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB22E560-2B9F-4E79-985F-1B49910FD9C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{943F4035-BD03-46BD-BF97-E20F35C676F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{943F4035-BD03-46BD-BF97-E20F35C676F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{943F4035-BD03-46BD-BF97-E20F35C676F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{943F4035-BD03-46BD-BF97-E20F35C676F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33D6307A-5066-4106-BE7A-2A85EA962988}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33D6307A-5066-4106-BE7A-2A85EA962988}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33D6307A-5066-4106-BE7A-2A85EA962988}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33D6307A-5066-4106-BE7A-2A85EA962988}.Release|Any CPU.Build.0 = Release|Any CPU
+		{884E978C-B499-4458-B755-3F11254545D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{884E978C-B499-4458-B755-3F11254545D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{884E978C-B499-4458-B755-3F11254545D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{884E978C-B499-4458-B755-3F11254545D3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

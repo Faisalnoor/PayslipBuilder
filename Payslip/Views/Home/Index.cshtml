@@ -1,0 +1,29 @@
+﻿@using Payslip.Controllers;
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<p id="holderLabel">Please drop the json file here to generate payslips.</p>
+<div id="holder" class="droptarget"></div>
+
+
+<table id="payslip-container" style="display: none;" class="table">
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th>Pay Period</th>
+        <th>Gross Income</th>
+        <th>Income Tax</th>
+        <th>Net Income</th>
+        <th>Super</th>
+    </tr>
+    </thead>
+    <tbody>
+          
+    </tbody>
+</table>
+
+<p style="clear:both;">
+    <strong>Note:</strong>
+    drag events are not supported in Internet Explorer 8 and earlier versions or Safari 5.1 and earlier versions.
+</p>
