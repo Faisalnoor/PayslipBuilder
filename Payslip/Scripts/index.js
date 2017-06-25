@@ -38,7 +38,6 @@
     var generatePayslip = function (employees) {
 
         removePercentageSignFromSuperRate(employees);
-        console.log(employees);
 
         ajax.call('/Payslip/GeneratePayslip', 'POST', { employees: employees })
             .done(function(response) {
