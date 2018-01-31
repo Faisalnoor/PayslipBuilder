@@ -1,11 +1,14 @@
-Pre-requisites
+Payslip Builder
+===============
 
-- Windows 
-- .Net 4.5.2 Framework
-- Visual Studio Professional 2015 **OR** Visual Studio Community 2015 with Extensions (from Tools > Extensions and Updates:
-	- NuGet Package Manager (3.4)
+- Pre-requisites
 
-- IIS Express (8.0) - install via the "Web Platform"
+	- Windows 
+	- .Net 4.5.2 Framework
+	- Visual Studio Professional 2015 **OR** Visual Studio Community 2015 with Extensions (from Tools > Extensions and Updates:
+		- NuGet Package Manager (3.4)
+
+	- IIS Express (8.0) - install via the "Web Platform"
 
 - Assumptions:
 	- Input file is in json format.
